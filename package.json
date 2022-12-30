@@ -1,0 +1,23 @@
+{
+  "name": "aadan_pradan",
+  "version": "1.0.0",
+  "description": "all the code and documentation for aadan pradan",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exterminator11/Project-School.git"
+  },
+  "author": "Rachit Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exterminator11/Project-School/issues"
+  },
+  "homepage": "https://github.com/Exterminator11/Project-School#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
