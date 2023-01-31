@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'bree';
+  src: url('Bree_Serif/BreeSerif-Regular.ttf');
+}
+.navbar-brand{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:28px;
+
+}
+.App{
+  background-image: url('bg.png');
+  height:100vh;
+}
+#hb{
+  background: white;
+}
+#main,#home,#about,#help,#cu{
+  color: rgb(251, 251, 251);
+}
+#card1,#card2,#card3{
+  background-color: #a8a4ec;
+  border: solid white 7px;
+  color: white;
+  font-family: 'bree';
+  width: calc(100% - 100px);
+  height: auto;
+}
+#welcome,#aboutu,#helpu{
+  padding-top: 2rem;
+  font-size: 40px;
+}
+#cbody{
+  color:white;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+.form-outline{
+  width: calc(100%-100px);
+}
+#s1{
+  padding-bottom: 2rem;
+}
+#footer{
+  text-align: center;
+  color: white;
+}

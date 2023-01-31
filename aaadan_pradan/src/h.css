@@ -7,7 +7,7 @@
     font-size:28px;
 
 }
-.bg-image{
+.App{
     background-image: url('bg.png');
     height:100vh;
 }
