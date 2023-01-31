@@ -49,11 +49,26 @@ export function AboutUs(){
     <div className="card text-center mx-auto" id="card2">
         <h1 className="card-title" id="aboutu">About Us</h1>
         <p className="card-body" id="cbody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </div>)
+    </div>
+    )
 }
 
 export function Footer(){
+    return(
     <div>
         <p id="footer">© aadan pradan 2022</p>
     </div>
+    )
+}
+
+export function Home(){
+    return(
+        <div>
+            <Navbar/>
+            <Wel/>
+            <AboutUs/>
+            <Footer/>
+        </div>
+    )
+
 }
