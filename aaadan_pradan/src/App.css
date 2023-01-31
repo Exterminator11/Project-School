@@ -44,3 +44,7 @@
   text-align: center;
   color: white;
 }
+.gradient-custom{
+  background-image: url('bg.png');
+  font-family: 'bree';
+}

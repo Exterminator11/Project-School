@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'bree';
-    src: url('Bree_Serif/BreeSerif-Regular.ttf');
-}
-.gradient-custom{
-    background-image: url('bg.png');
-    font-family: 'bree';
-}

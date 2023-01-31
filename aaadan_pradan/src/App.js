@@ -1,14 +1,10 @@
 import './App.css';
-import {Navbar,Wel,Footer,AboutUs} from './components/com';
-import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
-import { Dash } from './components/dashboard';
-import { Main } from './components/Bundle';
+import { Login } from './components/login';
+
 function App() {
   return (
       <div className="App">
-        <Navbar/>
-        <Wel/>
-        <AboutUs/>
+        <Login/>
       </div>
   );
 }
