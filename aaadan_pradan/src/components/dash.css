@@ -1,0 +1,20 @@
+#bg-dash{
+    background-image: url('/Users/rachitdas/Desktop/Project-School-1/aaadan_pradan/src');
+}
+.card{
+    margin: 5%;
+}
+.card-body{
+    background-color: black;
+}
+.card-title{
+    text-align: center;
+    color: white;
+}
+.card-text{
+    color: white;
+}
+#bkgs{
+    color: white;
+    margin-left: 5%;
+}

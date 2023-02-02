@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Navbar } from "./com";
 
 export function Login(){
@@ -21,9 +22,9 @@ export function Login(){
                                     <input type="password" placeholder="Password" className="form-control form-control-lg"/>
                                 </div>
                                 <p className="mb-4"><a className="text-white-50" href="#!">Forgot pasword!</a></p>
-                                <a href="dashboard.html"><button className="btn btn-outline-light btn-lg px-4" type="submit">Login</button></a>
+                                <Link to="/search"><button className="btn btn-outline-light btn-lg px-4" type="submit">Login</button></Link>
                                 <div>
-                                    <p className="mb-0 pt-4">Don't have an account? <a href="#!" className="text-white-50 fw-bold">Sign Up</a></p>
+                                    <p className="mb-0 pt-4">Don't have an account? <Link to="/signup" className="text-white-50 fw-bold">Sign Up</Link></p>
                                 </div>
                             </div>
                         </div>

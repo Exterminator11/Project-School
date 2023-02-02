@@ -1,0 +1,18 @@
+#bg-help{
+    background-image: url('/Users/rachitdas/Desktop/Project-School-1/aaadan_pradan/src');
+}
+#Heading{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+#content{
+    color: white;
+    padding: 3%;
+}
+#accordionFlushExample{
+    padding: 5% 2% 2% 2%;
+}
+.accordian-body{
+    color:aqua;
+}
