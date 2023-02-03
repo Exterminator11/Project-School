@@ -9,3 +9,9 @@
     color:white;
     font-weight: 500;
 }
+.slick-slide img{
+    padding-top:1%;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
