@@ -1,5 +1,5 @@
 import { Navbar } from "./com";
-import './sear.css'
+// import './sear.css'
 
  
 export function Search(){

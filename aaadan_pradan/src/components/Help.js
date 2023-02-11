@@ -1,4 +1,4 @@
-import './Hel.css'
+// import './Hel.css'
 import { Navbar } from './com'
 
 

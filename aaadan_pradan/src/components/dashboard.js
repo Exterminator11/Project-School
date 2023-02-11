@@ -1,5 +1,5 @@
 import { Navbar } from "./com";
-import './dash.css'
+// import './dash.css'
 
 export function Dash(){
     return(

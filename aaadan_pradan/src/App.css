@@ -6,3 +6,152 @@
   background-image: url('bg.png');
   height:100vh;
 }
+
+
+
+#hb{
+  background: white;
+}
+#main,#home,#about,#help,#cu{
+color: rgb(251, 251, 251);
+}
+#card1,#card2,#card3{
+background-color: #a8a4ec;
+border: solid white 7px;
+color: white;
+font-family: 'bree';
+width: calc(100% - 100px);
+height: auto;
+}
+#welcome,#aboutu,#helpu{
+padding-top: 2rem;
+font-size: 40px;
+}
+#cbody{
+color:white;
+background-color: #a8a4ec;
+font-size: 20px;
+padding-bottom: 1rem;
+}
+.form-outline{
+width: calc(100%-100px);
+}
+#s1{
+padding-bottom: 2rem;
+}
+#footer{
+text-align: center;
+color: white;
+padding-bottom: 1%;
+}
+.gradient-custom{
+background-image: url('bg.png');
+font-family: 'bree';
+}
+.navbar-brand{
+font-family:Arial, Helvetica, sans-serif;
+font-size:28px;
+}
+
+
+#enclo{
+  background-image: url('bg.png');
+}
+#Heading{
+  color: white;
+}
+#ph,#Email,#add{
+  text-align: center;
+  color:white;
+  font-weight: 500;
+}
+.slick-slide img{
+  padding-top:1%;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+
+#bg-dash{
+  background-image: url('bg.png');
+}
+.card{
+  margin: 5%;
+}
+.card-body{
+  background-color: black;
+}
+.card-title{
+  text-align: center;
+  color: white;
+}
+.card-text{
+  color: white;
+}
+#bkgs{
+  color: white;
+  margin-left: 5%;
+}
+
+
+#bg-help{
+  background-image: url('bg.png');
+}
+#Heading{
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+#content{
+  color: white;
+  padding: 3%;
+}
+#accordionFlushExample{
+  padding: 5% 2% 2% 2%;
+}
+.accordian-body{
+  color:aqua;
+}
+
+
+#bg-insdash{
+  background-image: url('bg.png');
+}
+#create{
+  margin-left: 5%;
+}
+
+.Search{
+  background-image: url(bg.png);
+}
+.heading{
+  text-align: center;
+  color: white;
+  padding: 10px 10px;
+}
+.bar{
+  background-color: black;
+  width: 90%;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  margin-left: 3%;
+  padding-left: 20px;
+}
+#sub{
+  height: 50px;
+  float: left;
+  width: 4%;
+  background: #a8a4ec;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  position: absolute;
+}
+#filter-heading{
+  color: white;
+  text-align: center;
+}
