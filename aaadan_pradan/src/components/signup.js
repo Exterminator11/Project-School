@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import {Navbar} from './com'
 
 export function Signup(){
     return(
+    <>
+    <Navbar/>
     <section className="vh-70 gradient-custom">
         <div className="container py-5 h-100">
             <div className="row d-flex justify-content-center align-items-center h-100">
@@ -38,5 +40,6 @@ export function Signup(){
             </div>
         </div>
     </section>
+    </>
     )
 }

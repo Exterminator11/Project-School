@@ -5,7 +5,7 @@ import { AboutUs, Home, Navbar } from './components/com';
 import { Dash } from './components/dashboard';
 import { InsDash } from './components/insdash';
 import { Login } from './components/login';
-import { Search } from './components/search';
+import { Search} from './components/search';
 import { Signup } from './components/signup';
 import {Route, Routes} from 'react-router-dom'
 

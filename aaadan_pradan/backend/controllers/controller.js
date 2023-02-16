@@ -1,6 +1,8 @@
 const User=require('../models/umodel')
+const College=require('../models/clg')
 
-createUser=(req,res)=>{
+
+createUser=async (req,res)=>{
     const body=req.body
 
     if(!body){
@@ -49,7 +51,8 @@ deleteUser=async (req,res)=>{
 }
 
 getUserByEmailPassword=async (req,res)=>{
-    await User.findOne({_id:req.params.id},(err,user)=>{
+    const body=req.body
+    await User.findOne({"email":body.email},(err,user)=>{
         if(err){
             return res.status(401).json({success:false,error:err})
         }
@@ -73,5 +76,51 @@ getAllUsers=async(req,res)=>{
         return res.status(200).json({ success: true, data: users })
     }).catch(err => console.log(err))
 }
+// College methods
+createClg=async(req,res)=>{
+    const body=req.body
 
-module.exports={createUser,deleteUser,getUserByEmailPassword,getAllUsers}
+    if(!body){
+        return res.status(400).json({
+            success:false,
+            error:'You must be a user'
+        })
+    }
+
+    const clg=new College(body)
+
+    if(!clg){
+        return res.status(400).json({success:false,error:err})
+    }
+
+    clg
+        .save()
+        .then(()=>{
+            return res.status(201).json({
+                success:true,
+                id:clg._id,
+                message:'User created'
+            })
+        })
+        .catch(error=>{
+            return res.status(400).json({
+                error,
+                message:'clg not created'
+            })
+        })
+}
+
+getAllColleges=async(req,res)=>{
+    await College.find({}, (err, colleges) => {
+        if (err) {
+            return res.status(400).json({ success: false, error: err })
+        }
+        if (!colleges.length) {
+            return res
+                .status(404)
+                .json({ success: false, error: `Colleges not found` })
+        }
+        return res.status(200).json({ success: true, data: colleges })
+    }).catch(err => console.log(err))
+}
+module.exports={createUser,deleteUser,getUserByEmailPassword,getAllUsers,createClg,getAllColleges}

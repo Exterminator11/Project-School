@@ -1,7 +1,9 @@
+import React,{ useEffect, useState } from "react";
 import { Navbar } from "./com";
+
+import axios from 'axios';
 // import './sear.css'
 
- 
 export function Search(){
     return(
         <div className="Search">
@@ -11,9 +13,8 @@ export function Search(){
             <input className="bar" placeholder="Search">
             </input>
             <button type="submit" id="sub"><i className="fa fa-search"></i></button>
-            <div className="row">
-                
-            </div>
+            {/* <div className="row">
+            </div> */}
         </div>
     )
 }
