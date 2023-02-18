@@ -3,6 +3,11 @@ import { Navbar } from "./com";
 
 import axios from 'axios';
 // import './sear.css'
+const getData= async ()=>{
+    const data=await axios.get('http://localhost:8001/api/clgs')
+    const colleges=data.data.data
+    
+}
 
 export function Search(){
     return(
@@ -12,7 +17,7 @@ export function Search(){
             <h1 className="heading">Search</h1>
             <input className="bar" placeholder="Search">
             </input>
-            <button type="submit" id="sub"><i className="fa fa-search"></i></button>
+            <button id="sub" onClick={getData} className="fa fa-search"></button>
             {/* <div className="row">
             </div> */}
         </div>
